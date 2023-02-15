@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="sv">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,20 +7,20 @@
     <title>Folmular</title>
 </head>
 <body>
-    <from action="login.php" method="post">
+    <from action="sida2.html" method="post">
         <p>
             <label for="un">Användarnamn:</label>
-            <input name="username" id="un" required/>
+            <input name="username" id="un" required>
         </p>
         <p>
             <label for="pw">Lösenord:</label>
-            <input name="password" type="password" id="pw" required/>
+            <input name="password" type="password" id="pw" required>
         </p>
         <p>
-            <input type="submit" value="Logga in"/>
+            <input type="submit" value="Logga in">
         </p>
     </from>
-    <form action="checkbox.php" metod="post">
+    <form action="sida2.html" metod="post">
         <p>
             <input type="checkbox" id="hem1" name="hem1" value="Lagenhet">
             <label for="hem1">Jag bor i lägenhet</label><br>
@@ -28,22 +28,24 @@
             <label for="hem2">Jag bor i hus</label><br>
             <input type="checkbox" id="hem3" name="hem3" value="Hemlos">
             <label for="hem3">Jag är hemlös</label><br>
+            <input type="submit" value="Submit">
         </p>
     </form>
     <br><br>
     <p>Kön</p>
-    <form action="radio.php" metod="post">
+    <form action="sida2.html" metod="post">
         <p>
             <input type="radio" id="kön1" name="kön" value="Man">
             <label for="kön1">Man</label><br>
             <input type="radio" id="kön2" name="kön" value="Kvinna">
             <label for="kön2">Kvinna</label><br>
             <input type="radio" id="kön3" name="kön" value="Attackhelikopter">
-            <label for="kön3">Attackhelikopter</label>
+            <label for="kön3">Attackhelikopter</label><br>
+            <input type="submit" value="Submit">
             <br><br>
         </p>
     </form>
-    <form action="farg.php">
+    <form action="sida2.html">
         <label for="färg">Välj en färg</label>
         <select name="färg" id="färg">
             <option value="blå">Blå</option>
@@ -53,12 +55,11 @@
             <option value="brun">Brun</option>
             <option value="röd">Röd</option>
             <option value="vit">Vit</option>
-        </select>
-        <br><br>
+        </select><br>
         <input type="submit" value="Submit"> 
     </form>
     <br>
     <br>
-    <a href="sida2.html">Klar</a>
+    <a href="sida3.html">Klar</a>
 </body>
 </html>
